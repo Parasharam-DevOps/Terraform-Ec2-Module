@@ -41,7 +41,7 @@ Before getting started, make sure you have the following tools installed:
     
       key_pair            = "your-key-pair-name"
       ami_id              = "your-ami-id"
-      public_instance_count = 2
+      public_instance_count = number-of-instances
       public_instance_type  = "t2.micro"
       public_instance_name  = "your-instance-name"
     }
