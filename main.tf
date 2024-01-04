@@ -8,7 +8,8 @@ provider "aws" {
 
 
 module "ec2" {
-  source = "./ec2_module"
+   
+    source = "github.com/Parasharam-DevOps/Terraform-Ec2-Module.git//ec2_module"
 
   # Pass variables to the module
   key_pair              = "private-key"
