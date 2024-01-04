@@ -1,7 +1,7 @@
 # Terraform-Ec2-Module
 Terraform-Ec2-Module-Project
 
-Feel free to utilize this EC2 module for your Terraform learning journey. I've already set up the `main.tf` behind the module for your reference, so need to pass variables to customize the configuration, including the number of instances you want to launch.
+Feel free to utilize this EC2 module for your Terraform learning journey. I've already set up the `main.tf` behind the module for your reference, so need to pass variables to Customize variables like key pair, AMI ID, and instance count.
 
 ## Prerequisites
 
