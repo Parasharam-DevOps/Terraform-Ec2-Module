@@ -1,4 +1,3 @@
-
 # Configure the AWS Provider
 provider "aws" {
   region = "eu-central-1"
@@ -6,10 +5,8 @@ provider "aws" {
 
 /*--------------- Public SG Module---------------*/
 
-
 module "ec2" {
-   
-    source = "github.com/Parasharam-DevOps/Terraform-Ec2-Module.git//ec2_module"
+  source = "github.com/Parasharam-DevOps/Terraform-Ec2-Module.git//ec2_module"
 
   # Pass variables to the module
   key_pair              = "private-key"
@@ -18,7 +15,6 @@ module "ec2" {
   public_instance_type  = "t2.micro"
   public_instance_name  = "public-instance"
 }
-
 
 /*--------------- Output Values ---------------*/
 
@@ -36,5 +32,3 @@ output "key_pair_name" {
   description = "Name of the key pair"
   value       = module.ec2.key_pair_name
 }
-
-
