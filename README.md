@@ -57,36 +57,34 @@ Before getting started, make sure you have the following tools installed:
 
 **Directory view**
 
-![image](https://github.com/Parasharam-DevOps/terraform-learning-journey/assets/132131379/004a5d21-c0d4-40f8-9a1f-0cb329ea6a7e)
+![Screenshot from 2024-01-03 23-45-55](https://github.com/Parasharam-DevOps/Terraform-Ec2-Module/assets/132131379/6481d5a5-1bc2-4544-a18b-6c4917fb994c)
 
 
 **terraform init**
 
-![image](https://github.com/Parasharam-DevOps/terraform-learning-journey/assets/132131379/c6599d34-84ee-43ea-80b7-7e680aeb412e)
+![Screenshot from 2024-01-03 23-44-37](https://github.com/Parasharam-DevOps/Terraform-Ec2-Module/assets/132131379/560fe12d-c6fb-40b5-ae1c-784f8647b59e)
 
 **terraform apply --auto-approve**
 
-![image](https://github.com/Parasharam-DevOps/terraform-learning-journey/assets/132131379/dfae3198-3e8a-4fd1-9bae-9fb442b9a239)
+![Screenshot from 2024-01-03 23-41-21](https://github.com/Parasharam-DevOps/Terraform-Ec2-Module/assets/132131379/86793688-4559-4b62-827e-58714fd679dc)
 
 **Console Preview**
 
-![image](https://github.com/Parasharam-DevOps/terraform-learning-journey/assets/132131379/4d4d9304-fcae-437a-beb4-80c66f53c5c0)
+![Screenshot from 2024-01-03 23-22-53](https://github.com/Parasharam-DevOps/Terraform-Ec2-Module/assets/132131379/7a074511-8576-4992-b1aa-0c9b15bee66a)
 
+![Screenshot from 2024-01-03 23-23-25](https://github.com/Parasharam-DevOps/Terraform-Ec2-Module/assets/132131379/2f36f8c7-ee09-4c8a-b3b6-f4764a0b3caf)
 
-![image](https://github.com/Parasharam-DevOps/terraform-learning-journey/assets/132131379/6c614e02-971f-4fea-92fb-c0fcef5f84b0)
-
-
-![image](https://github.com/Parasharam-DevOps/terraform-learning-journey/assets/132131379/4a50873c-a503-41d8-8e25-8be8646d14c5)
+![Screenshot from 2024-01-03 23-24-00](https://github.com/Parasharam-DevOps/Terraform-Ec2-Module/assets/132131379/ebb8406b-3009-4a55-911e-eeaf63559e25)
 
 
 **terraform state list**
 
-![image](https://github.com/Parasharam-DevOps/terraform-learning-journey/assets/132131379/b71de317-05ef-4020-8239-8c5712987780)
+![Screenshot from 2024-01-03 23-26-02](https://github.com/Parasharam-DevOps/Terraform-Ec2-Module/assets/132131379/41dde095-f2a8-448b-a12e-9167b901ccc3)
 
 
 
 **terraform destroy --auto-approve**
-![image](https://github.com/Parasharam-DevOps/terraform-learning-journey/assets/132131379/ee9d0813-ae44-432a-a50e-42cfc3e3a136)
+![Screenshot from 2024-01-04 00-06-06](https://github.com/Parasharam-DevOps/Terraform-Ec2-Module/assets/132131379/4cdef249-cb53-4ec8-8c26-958a56174b3c)
 
 
 
