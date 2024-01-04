@@ -52,6 +52,6 @@ resource "aws_instance" "ec2-project" {
   tags = {
     Name = "${var.public_instance_name}-0${count.index + 1}"
   }
-
+depends_on = [aws_key_pair.private-key-pair]
 }
 
