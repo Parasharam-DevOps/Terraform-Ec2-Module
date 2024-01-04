@@ -66,7 +66,8 @@ Before getting started, make sure you have the following tools installed:
 
 **terraform apply --auto-approve**
 
-![Screenshot from 2024-01-03 23-41-21](https://github.com/Parasharam-DevOps/Terraform-Ec2-Module/assets/132131379/86793688-4559-4b62-827e-58714fd679dc)
+![image](https://github.com/Parasharam-DevOps/Terraform-Ec2-Module/assets/132131379/fd17d70c-6500-498a-b0c6-4a4eb74752cf)
+
 
 **Console Preview**
 
@@ -75,6 +76,8 @@ Before getting started, make sure you have the following tools installed:
 ![Screenshot from 2024-01-03 23-23-25](https://github.com/Parasharam-DevOps/Terraform-Ec2-Module/assets/132131379/2f36f8c7-ee09-4c8a-b3b6-f4764a0b3caf)
 
 ![Screenshot from 2024-01-03 23-24-00](https://github.com/Parasharam-DevOps/Terraform-Ec2-Module/assets/132131379/ebb8406b-3009-4a55-911e-eeaf63559e25)
+
+
 
 
 **terraform state list**
