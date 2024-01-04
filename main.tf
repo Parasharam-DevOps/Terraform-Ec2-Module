@@ -19,21 +19,22 @@ module "ec2" {
   public_instance_name  = "public-instance"
 }
 
+
 /*--------------- Output Values ---------------*/
 
 output "public_instance_ids" {
   description = "IDs of the EC2 instances"
-  value       = module.ec2.aws_instance.ec2-project.*.id
+  value       = module.ec2.public_instance_ids
 }
 
 output "public_instance_ips" {
   description = "Public IP addresses of the EC2 instances"
-  value       = module.ec2.aws_instance.ec2-project.*.public_ip
+  value       = module.ec2.public_instance_ips
 }
 
 output "key_pair_name" {
   description = "Name of the key pair"
-  value       = module.ec2.aws_key_pair.private-key-pair.key_name
+  value       = module.ec2.key_pair_name
 }
 
 
