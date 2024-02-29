@@ -1,3 +1,9 @@
+
+provider "aws" {
+  region = var.region_code
+}
+
+
 /*--------------- Public Instance ---------------*/
 
 
@@ -6,6 +12,10 @@ resource "aws_instance" "ec2-project" {
   ami           = var.ami_id
   instance_type = var.public_instance_type
   key_name      = var.key_pair
+
+root_block_device {
+    volume_size = var.root_volume_size
+  }
 
   tags = {
     Name = "${var.public_instance_name}-0${count.index + 1}"
@@ -30,7 +40,6 @@ resource "local_file" "private-key-pair" {
   filename        = "${var.key_pair}.pem"
 }
 
-
 /*--------------- Bastion SG ---------------*/
 
 resource "aws_security_group" "public-SG" {
@@ -54,7 +63,6 @@ resource "aws_security_group" "public-SG" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 }
-
 
 
 
