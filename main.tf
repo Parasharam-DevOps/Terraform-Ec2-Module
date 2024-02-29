@@ -12,7 +12,7 @@ module "ec2" {
   key_pair              = "private-key"
   ami_id                = "ami-008fe2fc65df48dac"
   public_instance_count = 2
-  public_instance_type  = "t2.micro"
+  public_instance_type  = "t2.medium"
   public_instance_name  = "public-instance"
   root_volume_size      = "16"
 }
