@@ -90,5 +90,9 @@ Before getting started, make sure you have the following tools installed:
 ![Screenshot from 2024-01-04 00-06-06](https://github.com/Parasharam-DevOps/Terraform-Ec2-Module/assets/132131379/4cdef249-cb53-4ec8-8c26-958a56174b3c)
 
 
+| Document                                  | Link                                                                                                    |
+|-------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| Official AWS CLI Installation Guide       | [Link](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)                    |
+| Terraform Installation Guide              | [Link](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)                  |
 
 
