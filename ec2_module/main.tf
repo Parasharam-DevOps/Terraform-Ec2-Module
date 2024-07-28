@@ -19,6 +19,7 @@ root_block_device {
 
   tags = {
     Name = "${var.public_instance_name}-0${count.index + 1}"
+    Group = var.public_instance_group_name
   }
 depends_on = [aws_key_pair.private-key-pair]
 }
