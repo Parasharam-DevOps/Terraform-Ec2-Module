@@ -14,6 +14,7 @@ module "ec2" {
   public_instance_count = 2
   public_instance_type  = "t2.medium"
   public_instance_name  = "public-instance"
+  public_instance_group_name = "zabbix-nodes"
   root_volume_size      = "16"
 }
 
