@@ -55,6 +55,13 @@ variable "public_instance_name" {
 
 }
 
+variable "public_instance_group_name" {
+  description = "public instance group name"
+  type        = string
+  default     = "zabbix-nodes"
+
+}
+
 variable "root_volume_size" {
   description = "Size of the root volume in gigabytes"
   type        = number
